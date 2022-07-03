@@ -28,7 +28,7 @@ header {
   top: 22px;
   right: 22px;
 }
-header .heading { /* headerタグ内のheadingクラスにのみ反映される */
+header .heading {
   font-size: 32px;
 }
 .nav-list {
@@ -43,8 +43,8 @@ header .heading { /* headerタグ内のheadingクラスにのみ反映される 
   margin: 0 20px;
 }
 .main-visual {
-  width: 100%; /* 横幅いっぱい */
-  height: 300px; /* 高さ300px */
+  width: 100%;
+  height: 300px;
 background-image: url(img/img/mv.jpg);
 background-size: cover;
 background-position: center;
@@ -64,16 +64,16 @@ padding-top: 105px;
   color: #fff;
 }
 main {
-  width: 800px; /* 横幅800px */
-  display: flex; /* Flexboxの利用 */
-  justify-content: center; /* 要素の横並び・中央寄せ */
-  margin: 0 auto; /* 要素の中央揃え */
-  padding: 70px 0; /* 上下に70px、左右に0pxの内側余白 */
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 70px 0;
 }
 
 .blog {
   width: 540px;
-  margin-right: 30px; /* 領域の右側余白 */
+  margin-right: 30px;
 }
 
 .blog-heading {
